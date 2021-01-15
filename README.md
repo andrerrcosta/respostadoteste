@@ -9,6 +9,6 @@ Back-End: NodeJs (Express).
 Instalação: Na pasta raiz digite npm install ou yarn install.
             dentro de src/client/respostadoteste digite npm install ou yarn install para instalar o cliente.
             
-Iniciando a aplicação: Na pasta raiz digite # npm run start. 
+Iniciando a aplicação: Na pasta raiz digite npm run start. 
 
 entre em https://localhost:8080
