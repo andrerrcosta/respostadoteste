@@ -258,7 +258,7 @@ export default {
 
       if (this.form.isValid()) {
         let service = new FakeProcess(
-          "Processando as informações",
+          "Processando as informações...",
           "default000.gif"
         );
         service.process();
