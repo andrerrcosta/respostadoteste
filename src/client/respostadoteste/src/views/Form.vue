@@ -242,19 +242,19 @@ export default {
       }
     },
     submit: function () {
-      this.formItems[0].model = "Juão Nogueira";
-      this.formItems[1].model = "juao@nobblecrafts.com";
-      this.formItems[2].model = "111.111.111-11";
-      this.formItems[3].model = "Rua Algum Lugar, 411, Bairro Sete";
-      this.formItems[4].model = "MG";
-      this.formItems[5].model = "22.222-000";
-      this.formItems[6].model = "Cidade 3";
-      this.formItems[7].model = "Cartão";
-      this.formItems[8].model = "Juão João";
-      this.formItems[9].model = { month: 1, year: 2023 };
-      this.formItems[10].model = "5425 2334 3010 9903";
-      // this.formItems[10].model = "1111 1111 1111 1111";
-      this.formItems[11].model = "541";
+      // this.formItems[0].model = "Juão Nogueira";
+      // this.formItems[1].model = "juao@nobblecrafts.com";
+      // this.formItems[2].model = "111.111.111-11";
+      // this.formItems[3].model = "Rua Algum Lugar, 411, Bairro Sete";
+      // this.formItems[4].model = "MG";
+      // this.formItems[5].model = "22.222-000";
+      // this.formItems[6].model = "Cidade 3";
+      // this.formItems[7].model = "Cartão";
+      // this.formItems[8].model = "Juão João";
+      // this.formItems[9].model = { month: 1, year: 2023 };
+      // this.formItems[10].model = "5425 2334 3010 9903";
+      // // this.formItems[10].model = "1111 1111 1111 1111";
+      // this.formItems[11].model = "541";
 
       if (this.form.isValid()) {
         let service = new FakeProcess(
